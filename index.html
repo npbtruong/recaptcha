@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recaptcha v3 Test</title>
     <!-- Add Recaptcha script -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LeuMjIUAAAAAODtAglF13UiJys0y05EjZugej6b"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></script>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
         function submitForm() {
             grecaptcha.ready(function() {
                 // Execute Recaptcha with the specified action
-                grecaptcha.execute('6LeuMjIUAAAAAODtAglF13UiJys0y05EjZugej6b', { action: 'submit' }).then(function(token) {
+                grecaptcha.execute('6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI', { action: 'submit' }).then(function(token) {
                     // Set the Recaptcha response in the hidden field
                     document.getElementById('recaptchaResponse').value = token;
 
